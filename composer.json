@@ -7,12 +7,12 @@
         "spreadsheets",
         "google"
     ],
-    "homepage": "https://github.com/Rhincodon/laravel-eloquent-spreadsheets",
+    "homepage": "https://github.com/mutaman97/laravel-eloquent-spreadsheets",
     "license": "MIT",
     "authors": [
         {
-            "name": "rhinodontypicus",
-            "email": "rhinodontypicus@gmail.com",
+            "name": "mutaman",
+            "email": "mutamanelhadi97@gmail.com",
             "homepage": "https://laravelinfo.com",
             "role": "Developer"
         }
@@ -26,6 +26,7 @@
         "illuminate/queue": "~5.3.0|~5.4.0|~5.5.0",
         "google/apiclient": "^2.1",
         "google/apiclient-services": "^0.11.0"
+        "mutaman97/laravel-eloquent-spreadsheets": "dev-main"
     },
     "autoload": {
         "psr-4": {
