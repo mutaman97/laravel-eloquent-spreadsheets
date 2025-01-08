@@ -1,6 +1,6 @@
 {
-    "name": "rhincodon/laravel-eloquent-spreadsheets",
-    "description": "Sync Eloquent models with google spreadsheets",
+    "name": "mutaman97/laravel-eloquent-spreadsheets",
+    "description": "Sync Eloquent models with Google spreadsheets",
     "keywords": [
         "laravel",
         "eloquent",
@@ -20,12 +20,12 @@
     "require": {
         "php": "^8.2",
         "illuminate/support": "^10.0|^11.0",
-        "illuminate/bus": "~5.3.0|~5.4.0|~5.5.0",
-        "illuminate/console": "~5.3.0|~5.4.0|~5.5.0",
-        "illuminate/contracts": "~5.3.0|~5.4.0|~5.5.0",
-        "illuminate/queue": "~5.3.0|~5.4.0|~5.5.0",
+        "illuminate/bus": "^10.0|^11.0",
+        "illuminate/console": "^10.0|^11.0",
+        "illuminate/contracts": "^10.0|^11.0",
+        "illuminate/queue": "^10.0|^11.0",
         "google/apiclient": "^2.1",
-        "google/apiclient-services": "^0.11.0"
+        "google/apiclient-services": "^0.11.0",
         "mutaman97/laravel-eloquent-spreadsheets": "dev-main"
     },
     "autoload": {
@@ -38,7 +38,5 @@
     },
     "config": {
         "sort-packages": true
-  },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    }
 }
